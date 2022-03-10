@@ -11,5 +11,5 @@ jobs:
         with:
           # 下方的name格式为：Docker Hub ID/自定义镜像名称
           name: programmerzhou1/zhouvps
-          username: '${{ secrets.programmerzhou1 }}'
-          password: '${{ secrets.programmerzhou123456 }}'
+          username: '${{ secrets.DOCKER_USERNAME }}'
+          password: '${{ secrets.DOCKER_PASSWORD }}'
